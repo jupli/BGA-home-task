@@ -72,7 +72,6 @@ hometask-blockchain/
 │
 ├── blockchain.js                 # Backward-compat re-export → models/blockchain.js
 ├── server.js                     # Entry point — wires middleware, routes, starts server
-├── .env.example                  # Template for environment variables
 └── package.json
 ```
 
@@ -89,7 +88,6 @@ hometask-blockchain/
 
 ```bash
 npm install
-cp .env.example .env   # then edit .env if you need different ports
 ```
 
 ### Run in Development

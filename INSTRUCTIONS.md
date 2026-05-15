@@ -16,7 +16,6 @@ what we are evaluating.
 
 ```bash
 npm install
-cp .env.example .env
 
 # Terminal 1 — React dev server (port 3000)
 npm start
